@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "46001412213",
+    "firebase_url": "https://spiderchat-c4733.firebaseio.com",
+    "project_id": "spiderchat-c4733",
+    "storage_bucket": "spiderchat-c4733.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:46001412213:android:bc0e9880311c32d4",
+        "android_client_info": {
+          "package_name": "rahul.com.spiderchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "46001412213-2nl813jqbvffcnuj6nkhuj6tadkrc441.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "rahul.com.spiderchat",
+            "certificate_hash": "62b906fb5ffad85aa538142b9ced1ac10436ad05"
+          }
+        },
+        {
+          "client_id": "46001412213-kva7jb3gb5kf1923h00afr04mvovs8fe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "rahul.com.spiderchat",
+            "certificate_hash": "db1ce2e9f29d5c8d97deba02237b16dd04a05a32"
+          }
+        },
+        {
+          "client_id": "46001412213-anbnm4u9tg7qjoovv16fkc6i7ccqcjg8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-evKmtn9FaC6Sm_u2XYEsuaV1TeYmVqE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "46001412213-anbnm4u9tg7qjoovv16fkc6i7ccqcjg8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

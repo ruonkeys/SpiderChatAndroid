@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF4081">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/avatar"
+        android:id="@+id/user_profile_img"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Display Name"
+        android:textColor="#f2f2f2"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:id="@+id/user_profile_displayName"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#f2f2f2"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="status"
+        android:id="@+id/user_profile_status"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#f2f2f2"
+        android:text="Total Friends"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="70dp"
+        android:id="@+id/user_profile_friends_count"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send Friend Request"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#7700e7"
+        android:textColor="#f2f2f2"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:id="@+id/user_profile_sendRequest_btn"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:text="Decline Friend Request"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:background="#eebbff"
+            android:id="@+id/user_profile_declineRqst_btn"/>
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

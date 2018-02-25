@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffbb55">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="234dp"
+        android:textSize="24sp"
+        android:text="Welcome to SpiderChat"
+        android:textColor="#f2f2f2"/>
+
+    <Button
+        android:id="@+id/reg_btn"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="74dp"
+        android:background="#ff00"
+        android:textColor="#fff"
+        android:text="Register" />
+
+    <Button
+        android:id="@+id/sign_btn"
+        android:layout_width="match_parent"
+        android:layout_marginRight="25dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/reg_btn"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="17dp"
+        android:background="#00bfe7"
+        android:textColor="#fff"
+        android:text="SignIn" />
+</RelativeLayout>

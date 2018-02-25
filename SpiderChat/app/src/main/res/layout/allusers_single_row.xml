@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/avatar"
+        android:id="@+id/allusers_img" />
+
+    <TextView
+        android:id="@+id/allusers_dispName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/allusers_img"
+        android:layout_marginStart="13dp"
+        android:layout_toEndOf="@+id/allusers_img"
+        android:textSize="20sp"
+        android:text="Display name"
+        android:textColor="#000"/>
+
+    <TextView
+        android:id="@+id/allusers_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/allusers_img"
+        android:layout_alignLeft="@+id/allusers_dispName"
+        android:layout_marginBottom="11dp"
+        android:text="status"
+        />
+
+    <ImageView
+        android:id="@+id/onlineImage"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/online"
+        android:visibility="invisible"
+        android:layout_marginEnd="25dp"
+        android:layout_above="@+id/allusers_status"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
